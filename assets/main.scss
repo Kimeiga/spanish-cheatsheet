@@ -1,0 +1,140 @@
+---
+---
+
+@import "minima";
+
+$diesel: rgb(43, 39, 41);
+$tango: #F26B1D;
+$rose-bud-cherry: rgb(238, 61, 143);
+$bordeaux: rgb(61, 29, 45);
+$venetian-red: #be1131;
+$text: rgb(241, 237, 234);
+
+* {
+    // font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif !important;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    color: $text;
+}
+
+.post-title {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+.post-header {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+    color: $rose-bud-cherry;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+h5 {
+    font-size: 2.4rem;
+}
+
+h6 {
+    font-size: 2.2rem;
+}
+
+p, li, ol, ul{
+    font-size: 2.2rem;
+}
+
+a {
+    color: $tango !important;
+}
+
+.page-link {
+    color: $text !important;
+}
+
+code, pre, .highlight {
+    background-color: $bordeaux !important;
+}
+
+body {
+    background: $diesel;
+}
+
+.site-title {
+    font-style: italic;
+    // letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: $tango !important;
+}
+
+.centered-title {
+    font-style: italic;
+    // letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 3rem;
+
+    margin: auto 0;
+
+    height: 300px;
+    color: $rose-bud-cherry;
+    background: $bordeaux;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom: 50px;
+}
+
+
+.sidenav {
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 122px; /* Stay at the top */
+    right: 0;
+    background-color: $bordeaux; /* Black */
+    
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+    padding-left: 5px; 
+    font-size: 1em;
+
+    a {
+        color: $rose-bud-cherry !important;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-left: 0px !important;
+        padding-left: 6px !important;
+    }
+}
+
+.footer-heading {
+    font-size: 2rem;
+}
+
+.footer-col-wrapper p, span {
+    font-size: 1rem !important;
+}
